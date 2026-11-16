@@ -1,0 +1,13 @@
+digraph {
+	A [label="Entropy = 1.0
+Apakah Umur <= 20?"]
+	B [label="Kelas = Tidak"]
+	C [label="Entropy = 0.5
+Apakah Nilai <= 75?"]
+	D [label="Kelas = Ya"]
+	E [label="Kelas = Tidak"]
+	A -> B [label=Ya]
+	A -> C [label=Tidak]
+	C -> D [label=Ya]
+	C -> E [label=Tidak]
+}
